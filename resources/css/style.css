@@ -119,11 +119,25 @@ div {
     margin-top: 100px;
 }
 
+.bites {
+    background-color: whitesmoke;
+    font-family: "Verdana";
+    font-size: 12px;
+    color: dimgray;
+    border-bottom: 1px solid black;
+    padding: 12px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+}
+
 /***** Text Styles *****/
 
 p {
     font-family: "Georgia";
-    font-size: 14px;
+    font-size: 15px;
     color: black;
 }
 
@@ -140,4 +154,11 @@ h1 {
     font-size: 30px;
     color: white;
     text-align: center;
+}
+
+.news h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
 }
