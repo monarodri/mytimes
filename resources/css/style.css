@@ -2,6 +2,8 @@ body {
     display: block;
 }
 
+/***** Header Start *****/
+
 header {
     display: flex;
     font-family: Verdana;
@@ -41,9 +43,14 @@ nav span {
     padding: 20px 10px;
 }
 
+/***** Header End *****/
+/***** Main Content *****/
+
 .content {
     display: flex;
-    flex-direction: column;    
+    width: 1232px;
+    flex-direction: column; 
+    padding-top: 80px;
 }
 
 div {
@@ -51,7 +58,22 @@ div {
     display: block;
 }
 
-.firstcolumn {
+column {
+    display: flex;
     margin-top: 80px;
+    margin-right:  32px;
+    flex-direction: column;
+}
+
+.column.large {
     width: 630px;
+    flex-direction: column;    
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
 }
